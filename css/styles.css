@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap");
+@import "./curtain.css";
+@import "./dashboard.css";
+@import "./finished.css";
+@import "./gauge.css";
+@import "./joystick.css";
+@import "./menu.css";
+
+html, body, canvas {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+body {
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+}
+.helps {
+    position: fixed;
+    left: 35px;
+    bottom: 35px;
+    display: flex;
+    align-items: center;
+    max-width: 420px;
+}
+.details-helps span {
+    background-color: #c14747;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.helps {
+    position: fixed;
+    left: 35px;
+    bottom: 35px;
+    display: flex;
+    align-items: start;
+    max-width: 420px;
+    background-color: #000000e0;
+    padding: 15px;
+    border-radius: 15px;
+}
+.d-none {
+    display: none;
+}
+.helps button {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+}
+.helps img {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px #fff solid;
+}
+.details-helps {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 15px;
+}
